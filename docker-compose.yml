@@ -10,4 +10,4 @@ services:
       - ./data:/app/data
       - ./models:/app/models
       - ./outputs:/app/outputs
-    command: ["python", "src/prepare_data.py", "--help"]
+    command: ["python", "src/main.py"]
