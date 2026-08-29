@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded datasets and generated selections
+data/raw/
+data/selected_pairs.json
+data/**/*.wav
+data/**/*.zip
+
+# Downloaded pretrained models
+models/pretrained/
+
+# Generated experiment outputs
+outputs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local reference notes
+grill-me.md

@@ -1,0 +1,7 @@
+espnet
+espnet_model_zoo
+librosa
+soundfile
+matplotlib
+pesq
+pystoi
